@@ -10,16 +10,20 @@ html {
 
 body {
 	height: 100%;
-	width: 100%
+	width: 100%;
 	position: absolute;
 }
 
 #goalBox {
-	font-size: 24pt;
 	text-align: center;
 	position: relative;
 	top: 35%;
 	z-index: 1;
+	line-height: 200%;
+}
+
+#goalBox span {
+	font-size: 24pt;
 }
 
 #infoBox {
