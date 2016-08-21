@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	height: 100%;
+	width: 100%
+	position: absolute;
+}
+
+#goalBox {
+	font-size: 24pt;
+	text-align: center;
+	position: relative;
+	top: 35%;
+	z-index: 1;
+}
+
+#infoBox {
+	text-align: center;
+	position: relative;
+	top: 55%;
+	z-index: 1;
+}
+
+#background {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top:0;
+	z-index: 0;
+}
