@@ -36,7 +36,7 @@ $(document).ready(function() {
 	//draw a circle
 	ctx.beginPath();
 	ctx.moveTo(xstart, ystart);
-	ctx.arc(xstart, ystart, window.innerWidth, 0, (((utcNow - utcStart) / (utcEnd - utcStart))*2*Math.PI)); 
+	ctx.arc(xstart, ystart, window.innerWidth, (1.5*Math.PI), (((utcNow - utcStart) / (utcEnd - utcStart))*2*Math.PI) + 1.5*Math.PI); 
 	ctx.closePath();
 	ctx.fillStyle = '#8CDD81';
 	ctx.fill();
