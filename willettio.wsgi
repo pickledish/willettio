@@ -7,7 +7,7 @@ sys.path.insert(0, '/var/www/willettio')
 sys.path.insert(1, '/var/www')
 
 from mainPage import app as frontend
-from MonteCarlo import app as linear
+from linearApp import app as linear
 application = DispatcherMiddleware(frontend, {
 	'/linear': linear
 })
