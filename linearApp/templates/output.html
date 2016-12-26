@@ -1,0 +1,19 @@
+So! The best theta found ended up being {{bestState.theta|round(2)}}, and it involved rows: &nbsp;
+{% for i in range(Before[0][0]|length) %}
+	{% if i in bestState.includedRows %}<span style="color: #6800b3; font-weight: 700;">{{i}}</span>{% else %}<span style="color: #888888;">{{i}}</span>{% endif %}{% if i == (Before[0][0]|length - 1) %}.{% else %},&nbsp;{% endif %}
+{% endfor %}
+<br/>
+			<a href="/matrix/" target="_blank"><img src="/static/matrixExample.png" class="ph"></a>
+			<a href={{"/static/graph_of_" + bestState.rowNum|string + "_rowscols.png?" + time}} target="_blank"><img src={{"/static/graph_of_" + bestState.rowNum|string + "_rowscols.png?" + time}} class="ph"></a>
+			<a href={{"/static/phiCompare.png?" + time}} target="_blank"><img src={{"/static/phiCompare.png?" + time}} class="ph"/></a>
+			<a href={{"/static/verify.png?" + time}} target="_blank"><img src={{"/static/verify.png?" + time}} class="ph"/></a> <br/>
+{% if randMean %}
+	<div style="line-height: 250%; border: 2px solid grey;">
+	Hello, a random better theta was found and it was {{ randomState.theta|round(2) }}, and it involved rows {{ randomState.includedRows }}. <br/>
+	The average theta after a random row "fails" for this lucky state was {{ randMean|round(2) }}, where as this mean for our algorithm's was {{ algoMean|round(2) }}. </div>
+{% endif %}
+To view the histogram for an individual row-removal, click the following links: &nbsp;
+{% for i in range(Before[0][0]|length) %}
+	<a target="_blank" href="/static/graph_of_{{i}}_rowscols.png">{{i}}</a>{% if i == (Before[0][0]|length - 1) %}.<br/>{% else %},&nbsp;{% endif %}
+{% endfor %}
+To re-run this but remove specfic rows manually, enter rows you want to keep here: <input type="text" id="keepRows" style="width:20%"> <button id="rerun">Run Again</button>

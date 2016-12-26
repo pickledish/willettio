@@ -6,6 +6,8 @@ from werkzeug.wsgi import DispatcherMiddleware
 sys.path.insert(0, '/var/www/willettio')
 sys.path.insert(1, '/var/www')
 
-# from mainPage import app as frontend
+from mainPage import app as frontend
 from MonteCarlo import app as linear
-application = DispatcherMiddleware(linear)
+application = DispatcherMiddleware(frontend, {
+	'/linear': linear
+})
