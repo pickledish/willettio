@@ -9,6 +9,4 @@ sys.path.insert(2, '/var/www/willettio/linearApp')
 
 from mainPage import app as frontend
 from linearApp import app as linear
-application = DispatcherMiddleware(frontend, {
-	'/linear': linear
-})
+application = DispatcherMiddleware(frontend, {"/linear": linear})

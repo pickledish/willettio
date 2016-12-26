@@ -5,7 +5,9 @@ from scipy.stats import norm
 import random
 from StateModule import State
 
-import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use('Agg')
+from matplotlib import pyplot as plt
 plt.style.use('ggplot')
 
 # Generate random numbers for arrays A and b, and then solve the system and return them all
