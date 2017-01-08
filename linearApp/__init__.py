@@ -6,6 +6,8 @@ from flask import Flask
 from flask import render_template, request
 app = Flask(__name__)
 
+app.config["APPLICATION_ROOT"] = "/linear"
+
 @app.route('/', methods=['POST', 'GET'])
 def index():
 

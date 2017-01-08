@@ -48,7 +48,7 @@ $(document).ready(function($) {
 
 		$.ajax({
 			type: "POST",
-			url: "/",
+			url: "/linear/",
 			headers: { "cache-control": "no-cache" },
 			data: {n : en, alpha : alph, beta : bet, gamma : gamm, matrixA : mA, matrixb : mb},
 			dataType: "html",
@@ -69,7 +69,7 @@ $(document).ready(function($) {
 
 		$.ajax({
 			type: "POST",
-			url: "/rerun/",
+			url: "/linear/rerun/",
 			headers: { "cache-control": "no-cache" },
 			data: {keep : keepRows},
 			dataType: "html",
