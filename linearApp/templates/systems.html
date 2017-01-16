@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset=utf-8>
+		<meta name=description content="">
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		<title>Matrix Solver</title>
+		<link rel=stylesheet href="{{ url_for('static', filename='systems.css') }}">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="{{ url_for('static', filename='systems.js') }}"></script>
+	</head>
+
+	<body>
+
+		<div id="top"> <div id="box">
+
+			<div>
+			Please enter a size for the original matrix, and your preferred input: <br/>
+
+			<input type="text" id="n" placeholder="N">
+			<button id="showMatrixEntry">Enter Matrix</button>
+			<button id="showGreek">Random Matrix</button> <br/> 
+
+			<span id="greekRow">
+				<input type="text" id="alpha" placeholder="Alpha"> 
+				<input type="text" id="beta" placeholder="Beta"> 
+				<input type="text" id="gamma" placeholder="Gamma">
+			</span>
+
+			<span id="entryRow">
+				<textarea id="matrixA" placeholder="A"></textarea>
+				<textarea id="matrixb" placeholder="b"></textarea>
+			</span>
+
+			<button id="calculate">Calculate</button>
+			</div>
+
+		</div> </div>
+
+		<div id="bottom"> </div>
+
+	</body>
+
+</html>

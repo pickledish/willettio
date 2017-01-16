@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Info Page</title>
+	
+	<style type="text/css">
+
+		table {
+			margin-top: 40px;
+			display: inline-block;
+			border-collapse: collapse;
+		}
+
+		td {
+			height: 40px;
+			width: 40px;
+			text-align: center;
+			border: 1px solid black;
+			font-size: 10pt;
+		}
+
+		.empty {
+			border: none;
+		}
+
+		img {
+			margin-top: 40px;
+			margin-bottom: 40px;
+		}
+	</style>
+</head>
+<body>
+
+		Pre-removal Ax=b system: <br/>
+
+		<table>
+		{% for A, x, b in Before %}
+			<tr> 
+			{% for elem in A %}
+				<td> {{ elem|round(2) }} </td>
+			{% endfor %}
+			<td class='empty'> &nbsp; </td>
+			<td> {{ x.0|round(2) }} </td> 
+			<td class='empty'> &nbsp; </td>
+			<td> {{ b.0|round(2)}} </td> 
+			</tr>
+		{% endfor %}
+
+		</table>
+
+</body>
+</html>

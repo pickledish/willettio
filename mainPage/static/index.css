@@ -45,9 +45,9 @@ img {
 	align-items: center;
 
 	font-size: 12pt;
-	color: white;
+	color: #EEAF0F;
 
-	background-color: #153884; 
+	background-color: #262626; 
 
 	width: 100%;
 	height: 100%;
@@ -121,8 +121,12 @@ p + h3 {
 	width: 720px;
 }
 
-#projectsContent .right, #goodContent .right {
+#articlesContent .right, #goodContent .right, #projectsContent .right {
 	margin: 20px 0px 40px 80px;
+}
+
+#articlesContent p {
+	margin-bottom: 10px;
 }
 
 a {

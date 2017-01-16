@@ -1,0 +1,1184 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"arg",
+				"argv"
+			],
+			[
+				"list",
+				"listofListsofWords"
+			],
+			[
+				"bib",
+				"bibleIterator"
+			],
+			[
+				"va",
+				"validChunks"
+			],
+			[
+				"dwar",
+				"dwarf_type"
+			],
+			[
+				"dw",
+				"dwarf_type"
+			],
+			[
+				"bu",
+				"buildHTML"
+			],
+			[
+				"de",
+				"dec_line"
+			],
+			[
+				"c",
+				"c_file"
+			],
+			[
+				"HTML",
+				"buildHTML"
+			],
+			[
+				"com",
+				"compile"
+			],
+			[
+				"curr",
+				"current_possible_tokens"
+			],
+			[
+				"rem",
+				"remove\tfunction"
+			],
+			[
+				"eleme",
+				"element2"
+			],
+			[
+				"re",
+				"returner"
+			],
+			[
+				"elem",
+				"element"
+			],
+			[
+				"dwa",
+				"dwarf_type"
+			],
+			[
+				"he",
+				"hex_id"
+			],
+			[
+				"comp",
+				"compile\tfunction"
+			],
+			[
+				"out",
+				"out_file\tstatement"
+			],
+			[
+				"plo",
+				"plotHelper(\"histogram"
+			],
+			[
+				"THe",
+				"ThetaSquared"
+			],
+			[
+				"remo",
+				"removeds"
+			],
+			[
+				"esis",
+				"existingRowsList"
+			],
+			[
+				"th",
+				"theta2\tstatement"
+			],
+			[
+				"plot",
+				"plotHelper(\"single\t(systems.py)"
+			],
+			[
+				"det",
+				"determineBestRows"
+			],
+			[
+				"iter",
+				"iterateNTimes"
+			],
+			[
+				"coun",
+				"countedSort"
+			],
+			[
+				"Thet",
+				"ThetaSquared"
+			],
+			[
+				"init",
+				"initialPhi"
+			],
+			[
+				"ran",
+				"random"
+			],
+			[
+				"eix",
+				"existingRowsList"
+			],
+			[
+				"exis",
+				"existingRowsList"
+			],
+			[
+				"clac",
+				"calcHelper"
+			],
+			[
+				"theta",
+				"thetaList"
+			],
+			[
+				"or",
+				"originals"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"sty",
+				"style\tTag"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"calc",
+				"calculations\tmodule"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"bac",
+				"background-color\t(systems.css)"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"decor",
+				"box-decoration-break"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"b",
+				"border-box"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"s",
+				"size\tparam"
+			],
+			[
+				"ex",
+				"existingRows\tparam"
+			],
+			[
+				"delat",
+				"delta\tstatement"
+			],
+			[
+				"thet",
+				"thetaList\tparam"
+			],
+			[
+				"as",
+				"assert\tkeyword"
+			],
+			[
+				"arr",
+				"array_x\tstatement"
+			],
+			[
+				"remov",
+				"removed_x\tstatement"
+			],
+			[
+				"array",
+				"array_b\tparam"
+			],
+			[
+				"exi",
+				"existingRows\tstatement"
+			],
+			[
+				"arra",
+				"array_A\tparam"
+			],
+			[
+				"ar",
+				"array_A\tstatement"
+			],
+			[
+				"remove",
+				"removed_A\tstatement"
+			],
+			[
+				"al",
+				"alpha\tstatement"
+			],
+			[
+				"ma",
+				"matrixPlot\tfunction"
+			],
+			[
+				"removed",
+				"removed_A\tstatement"
+			],
+			[
+				"nom",
+				"normalized\tstatement"
+			],
+			[
+				"emp",
+				"empty_like\tstatement"
+			],
+			[
+				"removed_",
+				"removed_x\tstatement"
+			],
+			[
+				"border-c",
+				"border-collapse"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"del",
+				"delete\tfunction"
+			],
+			[
+				"M",
+				"MatrixForm\tclass"
+			],
+			[
+				"t",
+				"type\tAttr"
+			],
+			[
+				"mat",
+				"matrixResult\tfunction"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"dis",
+				"distance\tfunction"
+			],
+			[
+				"mul",
+				"multiply\tinstance"
+			],
+			[
+				"r",
+				"random\tstatement"
+			],
+			[
+				"t_d",
+				"t_div"
+			],
+			[
+				"t_",
+				"t_add"
+			],
+			[
+				"okay",
+				"Okay_set"
+			],
+			[
+				"expr",
+				"expr_tail"
+			],
+			[
+				"e",
+				"expr"
+			],
+			[
+				"st",
+				"stmt_list"
+			],
+			[
+				"bottom",
+				"text-bottom"
+			],
+			[
+				"inline",
+				"inline"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"inl",
+				"inline-flex"
+			],
+			[
+				"po",
+				"possibleStates"
+			],
+			[
+				"Int",
+				"IntSet"
+			],
+			[
+				"Pos",
+				"PossibleTransitionsOutFromCurrentOnI"
+			],
+			[
+				"p",
+				"pStates"
+			],
+			[
+				"In",
+				"IntSet"
+			],
+			[
+				"en",
+				"entry2"
+			],
+			[
+				"is",
+				"isSame"
+			],
+			[
+				"De",
+				"DecompDict"
+			],
+			[
+				"g",
+				"goodGoodList"
+			],
+			[
+				"goo",
+				"goodList"
+			],
+			[
+				"su",
+				"successList"
+			],
+			[
+				"pr",
+				"primes"
+			],
+			[
+				"N",
+				"NFA_State"
+			],
+			[
+				"Ins",
+				"IntSet_new"
+			],
+			[
+				"n",
+				"nfa"
+			],
+			[
+				"D",
+				"DFA"
+			],
+			[
+				"cont",
+				"continue\tkeyword"
+			],
+			[
+				"Dec",
+				"Decompose\tfunction"
+			],
+			[
+				"Decom",
+				"Decompose\tfunction"
+			],
+			[
+				"red",
+				"reduced\tstatement"
+			],
+			[
+				"Ke",
+				"KeyError\tclass"
+			],
+			[
+				"scann",
+				"scanner"
+			],
+			[
+				"decmp",
+				"DecompDict\tstatement"
+			],
+			[
+				"next",
+				"nextPrime\tstatement"
+			],
+			[
+				"Av",
+				"AvgAsia\tstatement"
+			],
+			[
+				"Avg",
+				"AvgEurope\tstatement"
+			],
+			[
+				"A",
+				"AvgUSA\tstatement"
+			],
+			[
+				"nu",
+				"numAsia\tstatement"
+			],
+			[
+				"to",
+				"totalAsia\tstatement"
+			],
+			[
+				"total",
+				"totalEurope\tstatement"
+			],
+			[
+				"num",
+				"numUSA\tstatement"
+			],
+			[
+				"tota",
+				"totalUSA"
+			],
+			[
+				"fit",
+				"fit_fn\tstatement"
+			],
+			[
+				"a",
+				"acceleration\tstatement"
+			],
+			[
+				"w",
+				"weight\tstatement"
+			],
+			[
+				"d",
+				"displacement\tstatement"
+			],
+			[
+				"pa",
+				"patients\tstatement"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "willettio.sublime-project",
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/HaskellGHC.sublime-build",
+					""
+				],
+				[
+					"Packages/User/HTML.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python3.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Swift.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Python3.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/Python3.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Python3.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/HaskellGHC.sublime-build",
+					""
+				],
+				[
+					"Packages/User/HTML.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Swift.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Swift.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "remove",
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: scr",
+				"Snippet: HTML - Script"
+			],
+			[
+				"Snippet: jq",
+				"Snippet: HTML - Include jQuery"
+			],
+			[
+				"Snippet: ",
+				"Snippet: HTML - Stylesheet link"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"add re",
+				"Package Control: Add Repository"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"diff",
+				"Diffy Cleanup"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"colors",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"latex",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"Package Control: li",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: l",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/brandon/Dropbox/Personal/willettio"
+	],
+	"file_history":
+	[
+		"/Users/brandon/Desktop/Projects/Biblical/quran.txt",
+		"/Users/brandon/Desktop/Projects/Biblical/bible.txt",
+		"/Users/brandon/Desktop/cover.txt",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Professional Identity/RRFinal.txt",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language_Design/2016-11-04 notes.txt",
+		"/Users/brandon/Desktop/yelp.txt",
+		"/Users/brandon/Downloads/Project5",
+		"/Users/brandon/Dropbox/Personal/ResumeFall2016.txt",
+		"/Users/brandon/Desktop/After.txt",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Professional Identity/projectDraft.txt",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Professional Identity/Phone Interview.txt",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/worksop/Journal 10.txt",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/worksop/Journal 9.txt",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/worksop/Journal 8.txt",
+		"/Users/brandon/Library/Application Support/Sublime Text 3/Packages/WordCount/WordCount.sublime-settings",
+		"/Users/brandon/Desktop/Before.txt",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language_Design/Proj4/CSC454Proj4/README.txt",
+		"/Users/brandon/Desktop/Projects/Job Shit/Dropbox/coverletter.tex",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Data_Mining/Proj2/TaxiProject/import.py",
+		"/Users/brandon/Desktop/Projects/Willett.io/flaskerrr.wsgi",
+		"/Users/brandon/Desktop/Projects/Willett.io/flask/runserver.py",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Data_Mining/Assignment 5/91data.csv",
+		"/Users/brandon/Desktop/Canvas.java",
+		"/Users/brandon/Desktop/javaTest.java",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language_Design/Proj4/CSC454Proj4/HtmlMaker.py",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language_Design/Proj4/CSC454Proj4/fib.dwarfdump",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language_Design/Proj4/CSC454Proj4/fibonacci.c",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language_Design/Proj4/CSC454Proj4/output.html",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language_Design/Proj4/CSC454Proj4/fibonacci_global.c.html",
+		"/Users/brandon/Desktop/Projects/ChemE_Project/distances/myApp/views.py",
+		"/Users/brandon/Desktop/Projects/ChemE_Project/New/Systems.html",
+		"/Users/brandon/Desktop/Projects/ChemE_Project/distances/templates/base.html",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language_Design/Proj3/CSC454Proj3/interpreter.ml",
+		"/Users/brandon/Desktop/Projects/ChemE_Project/distances/templates/distance.html",
+		"/Users/brandon/Desktop/Projects/ChemE_Project/matrices/matrices.py",
+		"/Users/brandon/Desktop/Projects/ChemE_Project/distances/myApp/static/index.css",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language_Design/Proj2/matt/CSC454Proj2/parse.cpp",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language_Design/Proj2/matt/CSC454Proj2/README.md",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language_Design/Proj2/parser/Makefile",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language_Design/Proj2/parser/scan.h",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language_Design/Proj2/parser/scan.cpp",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language_Design/Proj2/parser/parse.cpp",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language_Design/Proj2/parser/scan.c",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language_Design/Proj2/parser/parse.c",
+		"/Users/brandon/Downloads/parser.tar",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Professional Identity/IntroEmail.txt",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language_Design/2016-09-21.txt",
+		"/Users/brandon/Desktop/javaprogram.java",
+		"/Users/brandon/Desktop/Projects/Willett.io/html/index.css",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Formal Systems/Project 1/173Project/csc173-project-01-sample-code/Take in the NFA.txt",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language_Design/Proj1/Python.py",
+		"/Users/brandon/Desktop/titled.cpp",
+		"/Users/brandon/Desktop/Projects/Willett.io/html/index.html",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language_Design/2016-09-19 Notes.txt",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language_Design/Proj1/Proj1.swift",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language_Design/Proj1/readme.txt",
+		"/Users/brandon/Library/Application Support/Sublime Text 3/Packages/User/Swift.sublime-build",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language_Design/Proj1/test.hs",
+		"/Users/brandon/Library/Application Support/Sublime Text 3/Packages/User/HaskellGHC.sublime-build",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language_Design/Proj1/Haskell/app/Main.hs",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Formal Systems/Project 1/173Project/csc173-project-01-sample-code/nfa.h",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Formal Systems/Project 1/173Project/csc173-project-01-sample-code/NFA.c",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Formal Systems/Project 1/173Project/csc173-project-01-sample-code/DFA.c",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Formal Systems/Project 1/173Project/csc173-project-01-sample-code/IntSet.c",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Formal Systems/Project 1/173Project/csc173-project-01-sample-code/dfa.h",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Formal Systems/Project 1/173Project/csc173-project-01-sample-code/Test.c",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language Design/2016-09-14 notes.txt",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Formal Systems/Project 1/173Project/csc173-project-01-sample-code/Q1partB.c",
+		"/Users/brandon/Desktop/myfirstjavaprog.java",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Data_Mining/Assignment 1/textbookQuestions.tex",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Data_Mining/housing.py",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Data_Mining/autompg.data",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language Design/Proj1/Python.py",
+		"/Users/brandon/Dropbox/School/04 Junior Work/Language Design/2016-09-07 notes.txt",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Language Design/2016-09-12 notes.txt",
+		"/Users/brandon/Dropbox/School/04 Junior Work/Formal Systems/Homework 0/untitled.c",
+		"/Users/brandon/Dropbox/School/04_Junior_Work/Professional Identity/assignment1.tex",
+		"/Users/brandon/Desktop/textfile.txt",
+		"/Users/brandon/Dropbox/School/04 Junior Work/Data Mining/housing.py",
+		"/Users/brandon/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/brandon/Desktop/Projects/Willett.io/betterment/page.js",
+		"/Users/brandon/Desktop/Projects/Willett.io/betterment/page.css",
+		"/Users/brandon/Desktop/Projects/Willett.io/betterment/page.html",
+		"/Users/brandon/Desktop/Projects/Willett.io/betterment/Accepted",
+		"/Users/brandon/Desktop/Projects/Willett.io/html/index.js",
+		"/Users/brandon/Desktop/Projects/ProfRank/profrank/app/static/index.js",
+		"/Users/brandon/Desktop/Projects/ProfRank/profrank/templates/index.html",
+		"/Users/brandon/Desktop/Projects/Louvre site/index.html",
+		"/Users/brandon/Desktop/Projects/Louvre site/story.html",
+		"/mnt/droplet/var/www/html/index.html",
+		"/mnt/droplet/var/www/html/index2.html",
+		"/Users/brandon/Dropbox/Personal/Sum Clothes.txt",
+		"/Users/brandon/Dropbox/Personal/list.txt",
+		"/Users/brandon/Desktop/title.rb",
+		"/Users/brandon/Desktop/Projects/DjangoTest/mysite/mysite/settings.py",
+		"/Users/brandon/Desktop/Louvre site/git/pickledish.github.io/index.html",
+		"/Users/brandon/Desktop/Louvre site/git/pickledish.github.io/main.js",
+		"/Users/brandon/Desktop/Louvre site/git/pickledish.github.io/index.css",
+		"/Users/brandon/Desktop/tettttt.html",
+		"/Users/brandon/Desktop/Louvre site/index.html",
+		"/Users/brandon/Desktop/Louvre site/main.js",
+		"/Users/brandon/Desktop/Louvre site/index.css",
+		"/Users/brandon/Desktop/Craigslist/clsearch.rss",
+		"/Users/brandon/Desktop/Craigslist/main.js",
+		"/Users/brandon/Desktop/Craigslist/index.html",
+		"/Users/brandon/Desktop/Louvre site/contact.html",
+		"/Users/brandon/Desktop/Louvre site/story.html",
+		"/Users/brandon/Desktop/theme.css",
+		"/Users/brandon/Desktop/page.html",
+		"/Users/brandon/Library/Application Support/Sublime Text 3/Packages/User/HTML.sublime-build",
+		"/Users/brandon/Library/Application Support/Sublime Text 3/Packages/User/HTML",
+		"/Users/brandon/Dropbox/School/03 Sophomore Work/Second Semester/Math/Recreation/Recreation.tex",
+		"/Users/brandon/Dropbox/School/03 Sophomore Work/Second Semester/Data Structures/Journal 3.txt",
+		"/Users/brandon/Desktop/resume.txt",
+		"/Users/brandon/Dropbox/School/03 Sophomore Work/Second Semester/Game Theory/Assignment 9/Ass9.tex",
+		"/Users/brandon/Dropbox/School/03 Sophomore Work/Second Semester/Game Theory/Assignment 8/Ass8.tex",
+		"/Users/brandon/Dropbox/School/03 Sophomore Work/Second Semester/Data Structures/Journal 6.txt",
+		"/Users/brandon/Dropbox/School/03 Sophomore Work/Second Semester/Transition/2015-04-22/HW.tex",
+		"/Users/brandon/Desktop/thing.html",
+		"/Users/brandon/Dropbox/School/03 Sophomore Work/Second Semester/Math/2015-04-22/HW.tex",
+		"/Users/brandon/Dropbox/School/03 Sophomore Work/Second Semester/Math/2015-04-15/HW.tex",
+		"/Users/brandon/Dropbox/School/03 Sophomore Work/Second Semester/Data Structures/Journal 11.txt",
+		"/Users/brandon/Dropbox/School/03 Sophomore Work/Second Semester/Transition/Paper 2/paper.tex",
+		"/Users/brandon/Desktop/Projects/PSC exception/letter.tex",
+		"/Users/brandon/Dropbox/School/03 Sophomore Work/Second Semester/French/Summary Sheet/summary.tex",
+		"/Users/brandon/Dropbox/School/03 Sophomore Work/Second Semester/Data Structures/Oliver Graph Quiz/quiz.tex",
+		"/Users/brandon/Dropbox/School/03 Sophomore Work/Second Semester/Data Structures/Oliver Tree Quiz/quiz.tex",
+		"/Users/brandon/Dropbox/School/03 Sophomore Work/Second Semester/Game Theory/Assignment 7/Ass7.tex"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			"<current selection>",
+			"<current file>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"king",
+			"andmurderers",
+			"[^\\x00-\\x7F]",
+			"1:22",
+			"[^\\x00-\\x7F]",
+			"deep",
+			"depth",
+			"eath",
+			"–",
+			" ",
+			"weka",
+			"\"t\"",
+			"DW_AT_name",
+			"block",
+			"current",
+			"func",
+			"global",
+			"thetas",
+			"removedRows",
+			"numIterat",
+			"arrayB",
+			"token* arrayB",
+			"stderr",
+			"printf",
+			"};\n",
+			"5, ",
+			"5, 7, ",
+			"hope",
+			"over",
+			"dots",
+			"<",
+			"\\\\times",
+			"\\times",
+			"'",
+			"IMM",
+			"loc2",
+			"ADD ",
+			"ADD",
+			"case 15",
+			"case 9",
+			"case 7",
+			"case 14",
+			"case 6",
+			"case 15",
+			"case 33",
+			"case 17",
+			"case 8",
+			"immed",
+			"bf",
+			"else",
+			"10",
+			"doing out",
+			"$",
+			"\\s*\\s\\s",
+			"**\\s**",
+			"**\\H**",
+			"thus",
+			"pro"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\n",
+			"cout <<",
+			"\\\\cdot",
+			"\\cdot",
+			"default",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "willettio.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "json"
+							},
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 347.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.latextools":
+	{
+		"height": 181.0
+	},
+	"pinned_build_system": "Packages/User/Python3.sublime-build",
+	"project": "willettio.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 191.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
