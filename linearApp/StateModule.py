@@ -1,4 +1,5 @@
 import numpy as np
+from math import sqrt
 import random, pdb
 
 class State:
@@ -35,7 +36,7 @@ class State:
 				if (i == j): denominator += (normalized[i]**2) * (self.A[i,i]**2)
 				else: denominator += normalized[i] * normalized[j] * self.A[i,j]
 
-		return abs(float((numerator**2) / denominator))
+		return (numerator / sqrt(denominator))
 
 
 	# When given just an integer, it picks (that integer) random rows/cols to include in the result
