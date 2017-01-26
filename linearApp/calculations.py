@@ -36,6 +36,8 @@ def MakeOriginalState(size, alpha, beta, gamma, RF):
 def plotHelper(variety, **kwargs):
 
 	plt.clf()
+	print(os.getcwd())
+	print("PRITNED THE WORKING DIRECTORY")
 	os.chdir('linearApp')
 
 	if (variety == "single"):
