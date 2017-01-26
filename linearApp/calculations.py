@@ -36,9 +36,7 @@ def MakeOriginalState(size, alpha, beta, gamma, RF):
 def plotHelper(variety, **kwargs):
 
 	plt.clf()
-	print(os.getcwd())
-	print("PRITNED THE WORKING DIRECTORY")
-	os.chdir('linearApp')
+	os.chdir('/var/www/willettio/linearApp')
 
 	if (variety == "single"):
 
@@ -113,7 +111,7 @@ def plotHelper(variety, **kwargs):
 		plt.title("Verification Test", y=1.04)
 		plt.savefig("static/verify.png")
 
-	os.chdir('..')
+	os.chdir('/')
 
 def determineBestRows(stateList, size):
 

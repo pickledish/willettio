@@ -1,6 +1,6 @@
 from calculations import *
 import numpy as np
-import time, pdb
+import time, pdb, os
 
 from flask import Flask
 from flask import render_template, request
@@ -27,6 +27,8 @@ def index():
 			print (enteredA)
 			print (enteredb)
 			print("----------------------")
+			print(os.getcwd())
+			print("-----")
 
 			numpyA = np.zeros((size, size))
 			temp_list = enteredA.split("\n")
