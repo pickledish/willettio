@@ -1,11 +1,13 @@
-import math
+import math, pdb, os
 import numpy as np
 from numpy.linalg import LinAlgError
 from scipy.stats import norm
 import random
 from StateModule import State
 
-import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use('Agg')
+from matplotlib import pyplot as plt
 plt.style.use('ggplot')
 
 # Generate random numbers for arrays A and b, and then solve the system and return them all
@@ -34,6 +36,7 @@ def MakeOriginalState(size, alpha, beta, gamma, RF):
 def plotHelper(variety, **kwargs):
 
 	plt.clf()
+	os.chdir('/var/www/willettio/linearApp')
 
 	if (variety == "single"):
 
@@ -107,6 +110,8 @@ def plotHelper(variety, **kwargs):
 		plt.xlabel("Value of Theta", labelpad=12)
 		plt.title("Verification Test", y=1.04)
 		plt.savefig("static/verify.png")
+
+	os.chdir('/')
 
 def determineBestRows(stateList, size):
 

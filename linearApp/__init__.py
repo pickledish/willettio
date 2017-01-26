@@ -1,10 +1,12 @@
 from calculations import *
 import numpy as np
-import time, pdb
+import time, pdb, os
 
 from flask import Flask
 from flask import render_template, request
 app = Flask(__name__)
+
+app.config["APPLICATION_ROOT"] = "/linear"
 
 @app.route('/', methods=['POST', 'GET'])
 def index():
@@ -64,7 +66,7 @@ def index():
 													  randomState = randomState, algoMean = algorithmMean, randMean = randomMean)
 
 			except Exception as e:
-				return "An error occurred in the processing of the algorithm:\n" + str(e) + "\nPlease refresh the page to try again"
+				return "An error occurred in the processing of the algorithm:\n" + str(e) + "\nPlease refresh the page to try again
 
 
 		else:
