@@ -32,8 +32,8 @@ class State:
 		denominator = 0.0
 		for i in range(self.rowNum):
 			for j in range(self.rowNum):
-				if (i == j): denominator += (normalized[i]**2) * (self.A[i,i]**2)
-				else: denominator += normalized[i] * normalized[j] * self.A[i,j]
+				if (i == j): denominator += (self.normalized[i]**2) * (self.A[i,i]**2)
+				else: denominator += self.normalized[i] * self.normalized[j] * self.A[i,j]
 
 		return (numerator / sqrt(denominator))
 
