@@ -90,18 +90,23 @@ def rerun():
 		
 		keepRows = request.form['keep']
 
-		pdb.set_trace()
-
 		rowList = [int(i) for i in keepRows.split(",")]
 		size = len(rowList)
 		smallState = origin.createSubstateFromList(rowList)
 
-		origin, algorithmState, randomState, algorithmMean, randomMean = main(size, 0, 0, 0, smallState.A, smallState.B)
+		global origin
+		origin = None
 
-		return render_template('output.html', Before = list(zip(origin.A, origin.X, origin.B, origin.normalized)),
+		try: 
+			origin, algorithmState, randomState, algorithmMean, randomMean = main(size, alpha, beta, gamma, numpyA, numpyb)
+
+			return render_template('output.html', Before = list(zip(origin.A, origin.X, origin.B, origin.normalized)),
 												  bestState = algorithmState,
 												  time = str(int(time.time())),
 												  randomState = randomState, algoMean = algorithmMean, randMean = randomMean)
+
+		except Exception as e:
+			return "<p>An error occurred in the processing of the algorithm:</p><p>" + str(e) + "</p><p>Please refresh the page to try again</p>"
 
 
 	else:
