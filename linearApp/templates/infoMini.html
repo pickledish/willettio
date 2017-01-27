@@ -31,10 +31,10 @@
 </head>
 <body>
 
-		Pre-removal Ax=b system: <br/>
+		Pre-removal Ax=b system (with normalized x on the right): <br/>
 
 		<table>
-		{% for A, x, b in Before %}
+		{% for A, x, b, n in Before %}
 			<tr> 
 			{% for elem in A %}
 				<td> {{ elem|round(2) }} </td>
@@ -42,7 +42,10 @@
 			<td class='empty'> &nbsp; </td>
 			<td> {{ x.0|round(2) }} </td> 
 			<td class='empty'> &nbsp; </td>
-			<td> {{ b.0|round(2)}} </td> 
+			<td> {{ b.0|round(2)}} </td>
+			<td class='empty'> &nbsp; </td>
+			<td class='empty'> &nbsp; </td>
+			<td> {{ n.0|round(2)}} </td>
 			</tr>
 		{% endfor %}
 

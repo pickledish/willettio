@@ -60,13 +60,13 @@ def index():
 			try: 
 				origin, algorithmState, randomState, algorithmMean, randomMean = main(size, alpha, beta, gamma, numpyA, numpyb)
 
-				return render_template('output.html', Before = list(zip(origin.A, origin.X, origin.B)),
+				return render_template('output.html', Before = list(zip(origin.A, origin.X, origin.B, origin.normalized)),
 													  bestState = algorithmState,
 													  time = str(int(time.time())),
 													  randomState = randomState, algoMean = algorithmMean, randMean = randomMean)
 
 			except Exception as e:
-				return "An error occurred in the processing of the algorithm:\n" + str(e) + "\nPlease refresh the page to try again
+				return "<p>An error occurred in the processing of the algorithm:</p><p>" + str(e) + "</p><p>Please refresh the page to try again</p>"
 
 
 		else:

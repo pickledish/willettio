@@ -16,6 +16,7 @@ class State:
 		self.includedRows =  list(range(0, self.rowNum)) if (not r) else r
 
 		self.X = np.linalg.solve(A, B)
+		self.normalized = self.getNormalized()
 		self.theta = self.getTheta()
 
 	def __gt__(self, other):
@@ -26,9 +27,7 @@ class State:
 
 	def getTheta(self):
 
-		sumX = self.X.sum()
-		normalized = np.array([ (x / sumX) for x in self.X])
-		numerator = (normalized * self.B).sum()
+		numerator = (self.normalized * self.B).sum()
 
 		denominator = 0.0
 		for i in range(self.rowNum):
@@ -37,6 +36,10 @@ class State:
 				else: denominator += normalized[i] * normalized[j] * self.A[i,j]
 
 		return (numerator / sqrt(denominator))
+
+	def getNormalized(self):
+		sumX = self.X.sum()
+		return np.array([ (x / sumX) for x in self.X])
 
 
 	# When given just an integer, it picks (that integer) random rows/cols to include in the result
