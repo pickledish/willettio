@@ -56,6 +56,7 @@ def index():
 
 			print (numpyA, "\n", numpyb)
 			global origin
+			origin = None
 
 			try: 
 				origin, algorithmState, randomState, algorithmMean, randomMean = main(size, alpha, beta, gamma, numpyA, numpyb)
@@ -77,7 +78,8 @@ def index():
 
 @app.route('/matrix/')
 def matrixRoute():
-	return render_template("infoMini.html", Before = list(zip(origin.A, origin.X, origin.B)))
+	global origin
+	return render_template("infoMini.html", Before = list(zip(origin.A, origin.X, origin.B, origin.normalized)))
 
 @app.route('/rerun/', methods = ['GET', 'POST'])
 def rerun():
@@ -96,7 +98,7 @@ def rerun():
 
 		origin, algorithmState, randomState, algorithmMean, randomMean = main(size, 0, 0, 0, smallState.A, smallState.B)
 
-		return render_template('output.html', Before = list(zip(origin.A, origin.X, origin.B)),
+		return render_template('output.html', Before = list(zip(origin.A, origin.X, origin.B, origin.normalized)),
 												  bestState = algorithmState,
 												  time = str(int(time.time())),
 												  randomState = randomState, algoMean = algorithmMean, randMean = randomMean)
