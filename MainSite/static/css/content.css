@@ -1,0 +1,52 @@
+* {
+	color: #4A4A4A;
+}
+
+#titleBox {
+	height: 8vh;
+}
+
+.align-items-center {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+#content {
+	margin-top: 12vh;
+	width: auto; 
+	padding: 2vh 0 2vh 4.5vw;
+	border-left: 1px solid #e8a20a;
+	font-family: 'Open Sans';
+	font-size: 1em;
+	line-height: 1.8em;
+}
+
+.span12 {
+	font-size: 24pt;
+}
+
+.col-md-1 {
+	background-color: white;
+	height: 50px;
+}
+
+#name {
+	line-height: 8vh;
+	font-size: 4vh;
+	height: 100%;
+	font-family: 'bitter';
+	border-bottom: 1px solid #e8a20a;
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+	#content {
+		padding-left: 28px;
+		padding-right: 14px;
+	}
+}
+
+
+
+
