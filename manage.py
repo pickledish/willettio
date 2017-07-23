@@ -2,15 +2,15 @@
 # Importing libraries that we use, plus all blueprints
 #----------------------------------------------------------------------------#
 
+import urllib, os, sys
 from flask import Flask, url_for
 from flask_script import Manager
 import logging; from logging import Formatter, FileHandler
 
-import urllib, os, sys
 sys.path.append(os.path.dirname(os.path.abspath(__file__)) + "/Colors")
 sys.path.append(os.path.dirname(os.path.abspath(__file__)) + "/MainSite")
 
-from MainSite.WillettApp import willettApp
+from WillettApp import willettApp
 from ColorApp import colorApp
 
 #----------------------------------------------------------------------------#
@@ -22,7 +22,6 @@ app.register_blueprint(willettApp, url_prefix='')
 app.register_blueprint(colorApp, url_prefix='/colors')
 
 manager = Manager(app)
-# app.from_config(config)
 
 #----------------------------------------------------------------------------#
 # Stolen from stackoverflow! List all URL routes for this app

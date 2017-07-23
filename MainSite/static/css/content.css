@@ -1,34 +1,13 @@
+/* Dark grey is certified cooler than black */
+
 * {
 	color: #4A4A4A;
 }
 
+/* CSS for the "navbar", the title box with the name in it */
+
 #titleBox {
 	height: 8vh;
-}
-
-.align-items-center {
-	display: flex;
-	align-items: center;
-	height: 100%;
-}
-
-#content {
-	margin-top: 12vh;
-	width: auto; 
-	padding: 2vh 0 2vh 4.5vw;
-	border-left: 1px solid #e8a20a;
-	font-family: 'Open Sans';
-	font-size: 1em;
-	line-height: 1.8em;
-}
-
-.span12 {
-	font-size: 24pt;
-}
-
-.col-md-1 {
-	background-color: white;
-	height: 50px;
 }
 
 #name {
@@ -38,6 +17,18 @@
 	font-family: 'bitter';
 	border-bottom: 1px solid #e8a20a;
 	text-align: center;
+}
+
+/* CSS for the main content, underneath the title box */
+
+#content {
+	margin-top: 12vh;
+	width: auto; 
+	padding: 16px 0 16px 4.5vw;
+	border-left: 1px solid #e8a20a;
+	font-family: 'Open Sans';
+	font-size: 1em;
+	line-height: 1.8em;
 }
 
 @media (min-width: 768px) {

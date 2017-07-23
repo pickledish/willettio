@@ -2,12 +2,10 @@
 # Imports and blueprint setup
 #----------------------------------------------------------------------------#
 
-import os, csv, json
-from random import randint
-
 from flask import Flask, Blueprint, render_template, request
 
-willettApp = Blueprint('willettApp', __name__, template_folder = 'templates', static_folder = 'static', static_url_path = '/homestatic')
+willettApp = Blueprint('willettApp', __name__, template_folder = 'templates', 
+	static_folder = 'static', static_url_path = '/homestatic')
 
 #----------------------------------------------------------------------------#
 # Basic views -- Displaying choice screen or results, with data
