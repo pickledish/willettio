@@ -17,7 +17,7 @@ from ColorApp import colorApp
 # Registering all the blueprints on their specified URL zones
 #----------------------------------------------------------------------------#
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path = "/irrelevantStatic")
 app.register_blueprint(willettApp, url_prefix='')
 app.register_blueprint(colorApp, url_prefix='/colors')
 

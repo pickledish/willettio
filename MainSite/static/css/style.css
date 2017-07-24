@@ -1,53 +1,51 @@
+/* Dark grey is certified cooler than black */
+
 * {
 	color: #4A4A4A;
 }
 
-#titleBox {
+/* CSS for the "navbar", the title box with the name in it */
+
+#bigTitle {
 	height: 24vh;
+	line-height: 24vh;
+	font-size: 36pt;
 }
 
-.align-items-center {
-	display: flex;
-	align-items: center;
-	height: 100%;
-}
-
-#content {
-	margin-top: 12vh;
-	width: auto; 
-	padding: 24px;
-	border-left: 1px solid #e8a20a;
-	font-family: 'Open Sans';
-	font-size: 1em;
-	line-height: 1.8em;
-}
-
-.span12 {
-	font-size: 24pt;
-}
-
-.col-md-1 {
-	background-color: white;
-	height: 50px;
+#smallTitle {
+	height: 8vh;
+	line-height: 8.5vh;
+	font-size: 4vh;
 }
 
 #name {
-	line-height: 24vh;
+	padding: 0 32px 0 32px;
 	height: 100%;
 	font-family: 'bitter';
 	border-bottom: 1px solid #e8a20a;
 	text-align: center;
 }
 
-@media (max-width: 600px) {
-	#name {
-		font-size: 24pt
-	}
+#backButton {
+	float: left;
 }
 
-@media (min-width: 601px) {
-	#name {
-		font-size: 36pt;
+/* CSS for the main content, underneath the title box */
+
+#content {
+	margin-top: 12vh;
+	width: auto; 
+	padding: 16px 0 16px 4.5vw;
+	border-left: 1px solid #e8a20a;
+	font-family: 'Open Sans';
+	font-size: 1em;
+	line-height: 1.8em;
+}
+
+@media (min-width: 768px) {
+	#content {
+		padding-left: 28px;
+		padding-right: 14px;
 	}
 }
 

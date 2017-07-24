@@ -4,8 +4,8 @@
 
 from flask import Flask, Blueprint, render_template, request
 
-willettApp = Blueprint('willettApp', __name__, template_folder = 'templates', 
-	static_folder = 'static', static_url_path = '/homestatic')
+willettApp = Blueprint('willettApp', __name__, 
+	template_folder = 'templates', static_folder = 'static')
 
 #----------------------------------------------------------------------------#
 # Basic views -- Displaying choice screen or results, with data

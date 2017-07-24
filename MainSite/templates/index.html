@@ -9,15 +9,15 @@
 
 	<title>Willett dot io</title>
 
-	<link rel="stylesheet" type="text/css" href="homestatic/css/bootstrap-reboot.min.css">
-	<link rel="stylesheet" type="text/css" href="homestatic/css/bootstrap-grid.min.css">
-	<link rel="stylesheet" type="text/css" href="homestatic/css/style.css">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('willettApp.static', filename='css/bootstrap-reboot.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('willettApp.static', filename='css/bootstrap-grid.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('willettApp.static', filename='css/style.css') }}">
 	<link href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans:400,700" rel="stylesheet">
 
 </head>
 <body>
 
-	<div id="titleBox" class="row">
+	<div id="bigTitle" class="row">
 		<div class="col-12 push-sm-2 col-sm-8" id="name">brandon willett</div>
 	</div>
 
