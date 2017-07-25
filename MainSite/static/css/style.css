@@ -4,17 +4,29 @@
 	color: #4A4A4A;
 }
 
+.container-fluid {
+	padding: 0;
+}
+
+.row {
+	margin: 0 0 0 -15px;
+}
+
+h2 {
+	font-weight: 300;
+}
+
 /* CSS for the "navbar", the title box with the name in it */
 
 #bigTitle {
 	height: 24vh;
 	line-height: 24vh;
-	font-size: 36pt;
+	font-size: 5.5vh;
 }
 
 #smallTitle {
-	height: 8vh;
-	line-height: 8.5vh;
+	height: 10vh;
+	line-height: 10.5vh;
 	font-size: 4vh;
 }
 
@@ -30,12 +42,11 @@
 	float: left;
 }
 
-/* CSS for the main content, underneath the title box */
+/* CSS for the flowing text content, underneath the small title box */
 
-#content {
-	margin-top: 12vh;
-	width: auto; 
-	padding: 16px 0 16px 4.5vw;
+#contentCol {
+	margin-top: 3em;
+	padding: 16px 5vw 16px 4.5vw;
 	border-left: 1px solid #e8a20a;
 	font-family: 'Open Sans';
 	font-size: 1em;
@@ -43,10 +54,47 @@
 }
 
 @media (min-width: 768px) {
-	#content {
+	#contentCol {
 		padding-left: 28px;
 		padding-right: 14px;
 	}
+}
+
+/* CSS for the main TITLE content, underneath the large title box */
+
+#links {
+	margin-top: 12vh;
+	display: inline-block;
+	padding: 16px 5vw 16px 4.5vw;
+	border-left: 1px solid #e8a20a;
+	font-family: 'Open Sans';
+	font-size: 1em;
+	line-height: 1.8em;
+	text-align: left;
+}
+
+#linksCol {
+
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+	#links {
+		padding-left: 28px;
+		padding-right: 14px;
+	}
+}
+
+/* CSS for the footer! */
+
+#footer {
+	height: 4vh;
+	line-height: 4vh;
+	border-top: 1px solid #e8a20a;
+	margin-top: 4em;
+	text-align: center;
+	font-size: 0.75em;
+	color: #888888;
 }
 
 

@@ -1,0 +1,13 @@
+{% extends 'content.html' %}
+
+{% block content %}
+
+	<h2> Projects </h2><br/>
+
+	<a href="/colors">Colors</a><br/>
+	Answer a few questions about which colors you think look good together, and train your own little decision tree classifier to give you suggestions on new color pairings you'll probably like! Check out the code <a href="https://github.com/pickledish/Colors">here</a>. <br/><br/>
+
+	<a href="https://github.com/pickledish/TrafficLights">Traffic Lights</a><br/>
+	Tries to find an answer to the question, "What would be the ideal timings for this group of traffic signals?". Uses a Markov chain (the metropolis filter) to traverse the state space, always edging closer to the optimal timings. Continuously under improvement!
+
+{% endblock %}

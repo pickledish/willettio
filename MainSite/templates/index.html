@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="{{ url_for('willettApp.static', filename='css/bootstrap-reboot.min.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ url_for('willettApp.static', filename='css/bootstrap-grid.min.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ url_for('willettApp.static', filename='css/style.css') }}">
-	<link href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans:300,400,700" rel="stylesheet">
 
 </head>
 <body>
@@ -21,15 +21,14 @@
 		<div class="col-12 push-sm-2 col-sm-8" id="name">brandon willett</div>
 	</div>
 
-	<div class="container">
-		<div class="row">
-			<div class="push-1 col-10 push-xs-2 col-sm-6 push-md-4 col-md-4 push-lg-5 col-lg-2">
-				<div id="content">
-					<p> About Me </p>
-					<p> Projects </p>
-					<p> Reading </p>
-					<p> Contact </p>
-				</div>
+	<div class="row">
+		<div id="linksCol" class="push-1 col-10 push-xs-2 col-sm-6 push-md-4 col-md-4 push-lg-5 col-lg-2">
+			<div id="links">
+				<p> <a href="/about">About Me</a> </p>
+				<p> <a href="/projects">Projects</a> </p>
+				<p> Reading </p>
+				<p> Contact </p>
+				<p> <a href="/resume">Résumé</a> </p>
 			</div>
 		</div>
 	</div>
