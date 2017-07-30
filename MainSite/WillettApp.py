@@ -23,6 +23,14 @@ def about():
 def projects():
 	return render_template('projects.html')
 
+@willettApp.route('/articles')
+def articles():
+	return render_template('articles.html')
+
+@willettApp.route('/contact')
+def contact():
+	return render_template('contact.html')
+
 @willettApp.route('/resume')
 def resume():
 	return willettApp.send_static_file('files/Resume.pdf')

@@ -14,6 +14,11 @@
 
 h2 {
 	font-weight: 300;
+	font-size: 2em;
+}
+
+p {
+	margin-bottom: 0.35rem;
 }
 
 /* CSS for the "navbar", the title box with the name in it */

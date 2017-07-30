@@ -2,17 +2,18 @@
 
 {% block content %}
 
-	<h2>What I've Been Working On</h2><br/>
+	<p><h2>My Free Time</h2></p><br/>
 
-	<a href="/colors">Colors</a><br/>
-	Answer a few questions about which colors you think look good together, and train your own little decision tree classifier to give you suggestions on new color pairings you'll probably like! Check out the code <a href="https://github.com/pickledish/Colors">here</a>. <br/><br/>
+	<p><a href="/colors">Colors</a></p>
+	<p>Answer a few questions about which colors you think look good together, and train your own little random-forest decision tree classifier to give you suggestions on new color pairings you'll probably like! Check out the source <a href="https://github.com/pickledish/Colors">here</a>. </p><br/>
 
-	<a href="https://github.com/pickledish/TrafficLights">Traffic Lights</a><br/>
-	Tries to find an answer to the question, "What would be the ideal timings for this group of traffic signals?". Uses a Markov chain (the metropolis filter) to traverse the state space, always edging closer to the optimal timings. Continuously under improvement!
+	<p><a href="https://github.com/pickledish/TrafficLights">Traffic Lights</a></p>
+	<p>Tries to algorithmically find an answer to the question, "What would be the ideal timings for this group of traffic signals?". Uses a Markov chain (the metropolis filter) to traverse the state space of light timings, always edging closer to the optimal configuration to let the most people get to work on time. Continuously under improvement!</p><br/>
 
-	<a href="/chimowitz">sssss</a><br/>
-	Implementation of a graduate student's thesis algorithm, which uses simulated annealing to determine the most "important" rows and columns in a matrix. Note, the program only uses the "stock input" field to fetch test data -- invest at your own risk!
+	<p><a href="/chimowitz">Matrix Monte-Carlo</a></p>
+	(Research Project) Implementation of an algorithm based on an idea from a graduate student's thesis, which uses a Monte-Carlo annealing method to determine the most "important" rows and columns in a matrix. Note, the program only uses the "stock input" field to fetch data for testing -- invest at your own peril!</p><br/>
 
-
+	<p><a href="https://github.com/pickledish/sycned">Synced</a></p>
+	<p>Attempts to do for notes what ShoutKey does for links -- makes it easy to create a collaborative note sheet and share it with people near you via word-of-mouth. Uses a peer-to-peer OT (operational transformation) library called TogetherJS written by Mozilla to coordinate text input by multiple users at once.</p>
 
 {% endblock %}
