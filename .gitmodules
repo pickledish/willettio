@@ -1,3 +1,6 @@
 [submodule "Colors"]
 	path = Colors
 	url = https://github.com/pickledish/Colors.git
+[submodule "MonteCarlo"]
+	path = MonteCarlo
+	url = https://github.com/pickledish/MonteCarlo.git

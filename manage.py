@@ -9,9 +9,11 @@ import logging; from logging import Formatter, FileHandler
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)) + "/Colors")
 sys.path.append(os.path.dirname(os.path.abspath(__file__)) + "/MainSite")
+sys.path.append(os.path.dirname(os.path.abspath(__file__)) + "/MonteCarlo")
 
 from WillettApp import willettApp
 from ColorApp import colorApp
+from MonteCarlo import monteCarloApp
 
 #----------------------------------------------------------------------------#
 # Registering all the blueprints on their specified URL zones
@@ -20,6 +22,7 @@ from ColorApp import colorApp
 app = Flask(__name__, static_url_path = "/irrelevantStatic")
 app.register_blueprint(willettApp, url_prefix='')
 app.register_blueprint(colorApp, url_prefix='/colors')
+app.register_blueprint(monteCarloApp, url_prefix="/monteCarlo")
 
 manager = Manager(app)
 
