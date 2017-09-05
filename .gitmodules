@@ -3,4 +3,4 @@
 	url = https://github.com/pickledish/Colors.git
 [submodule "MonteCarlo"]
 	path = MonteCarlo
-	url = https://1f711fe4d4b5a06c6ef7570e14bcb5121e9a3356:x-oauth-basic@github.com/pickledish/MonteCarlo.git
+	url = https://2415a016518bd54211d811d5ce882415cf7b11a1:x-oauth-basic@github.com/pickledish/MonteCarlo.git
