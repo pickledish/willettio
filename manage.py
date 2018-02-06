@@ -51,16 +51,18 @@ def list_routes():
 # Assuming we're in production, set up the logging tools
 #----------------------------------------------------------------------------#
 
-if not app.debug:
+# We don't want to override our custom logger in MonteCarlo
 
-    file_handler = FileHandler('error.log')
-    s = "%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]"
-    file_handler.setFormatter(Formatter(s))
+# if not app.debug:
 
-    app.logger.setLevel(logging.INFO)
-    file_handler.setLevel(logging.INFO)
-    app.logger.addHandler(file_handler)
-    app.logger.info('errors')
+#     file_handler = FileHandler('error.log')
+#     s = "%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]"
+#     file_handler.setFormatter(Formatter(s))
+
+#     app.logger.setLevel(logging.INFO)
+#     file_handler.setLevel(logging.INFO)
+#     app.logger.addHandler(file_handler)
+#     app.logger.info('errors')
 
 if __name__ == "__main__":
 	manager.run()
